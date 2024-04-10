@@ -1,0 +1,13 @@
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="checkbox"]:focus,
+input[type="search"]:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Styles for checked checkboxes */
+.form-check-input:checked {
+  background-color: #dc3545; /* Change background color to red when checked */
+}
